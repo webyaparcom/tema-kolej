@@ -1,0 +1,40 @@
+{
+  "id": "feyaz4uozb",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Kayıttan sınava; dersten takibe.",
+    "en": "From registration to exam; from lesson to tracking.",
+    "ar": "من التسجيل إلى الامتحان؛ من الدرس إلى المتابعة."
+  },
+  "keyword": {
+    "tr": "Öğrenme",
+    "en": "Learning",
+    "ar": "التعلم"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "24l7ku",
+      "fahxn6"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:37.314Z",
+  "update": "2026-11-06T00:01:14.373Z"
+}

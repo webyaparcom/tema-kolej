@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Ders ve deneme; görseller temsilîdir.",
-    "en": "Classes and exams; images are representative.",
-    "ar": "دروس وامتحانات؛ الصور تمثيلية."
+    "tr": "Ders ve laboratuvar; görseller temsilîdir.",
+    "en": "Lessons and laboratory; images are representative.",
+    "ar": "دروس ومختبر؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-06T00:01:14.378Z",
+  "update": "2026-11-12T07:36:19.676Z",
   "date": "2026-10-30"
 }

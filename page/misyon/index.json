@@ -27,9 +27,9 @@
   "index": 0,
   "url": "",
   "text": {
-    "tr": "<h2>Misyonumuz</h2>\n<p>Üretimi, net fiyatı ve zamanında teslimi sunmak.</p>",
-    "en": "<h2>Our mission</h2>\n<p>To offer production, clear pricing and on-time delivery.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم الإنتاج والسعر الواضح والتسليم في الوقت.</p>"
+    "tr": "<h2>Misyonumuz</h2>\n<p>Öğrencilerin akademik gelişimini ve özgüvenini güvenli bir okul ortamında desteklemek.</p>",
+    "en": "<h2>Our mission</h2>\n<p>To support students' academic growth and confidence in a safe school environment.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>دعم التطور الأكاديمي للطلاب وثقتهم بأنفسهم في بيئة مدرسية آمنة.</p>"
   },
   "title": {
     "tr": "Misyon",
@@ -37,7 +37,7 @@
     "ar": "المهمة"
   },
   "date": "2026-11-05T18:57:24.690Z",
-  "update": "2026-11-06T00:01:14.397Z",
+  "update": "2026-11-12T07:36:19.697Z",
   "sablonIzi": "a8a6ac234dced5af",
   "sablonIziDil": {
     "en": "3f5f6c628dec679f",

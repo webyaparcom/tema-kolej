@@ -776,7 +776,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1488,9 +1493,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Ön kayıt",
+          "en": "Pre-register",
+          "ar": "التسجيل المسبق"
         },
         "cta_url": "teklif-al"
       },
@@ -1544,29 +1549,29 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "Kolej & dershane",
-          "en": "College & prep",
-          "ar": "كلية ودروس"
+          "en": "School & study centre",
+          "ar": "مدرسة ومركز دراسة"
         },
         "title": {
           "tr": "Sorularda, sakin ilerle",
-          "en": "Advance calmly in the questions",
-          "ar": "تقدم بثقة في الأسئلة"
+          "en": "Take problems calmly, step by step",
+          "ar": "تقدّم بهدوء في كل مسألة"
         },
         "metin": {
-          "tr": "Fen Koleji, ders ve deneme sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Fen gives classes and exams. Images are representative and text is fictional.",
-          "ar": "يعطي فن دروس وامتحانات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Fen Koleji; ortaokul ve lise düzeyinde ders programı, deneme sınavı ve rehberlik sunar. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Fen Koleji offers lessons, mock exams and guidance for middle and high school students. Images are representative and text is fictional.",
+          "ar": "Fen Koleji يقدّم دروسًا واختبارات تجريبية وإرشادًا لطلاب المرحلتين المتوسطة والثانوية. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Dersler",
-          "en": "Lessons",
-          "ar": "دروس"
+          "tr": "Programlar",
+          "en": "Programmes",
+          "ar": "البرامج"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Kayıt iste",
-          "en": "Request enrollment",
-          "ar": "اطلب تسجيل"
+          "tr": "Ön kayıt",
+          "en": "Pre-register",
+          "ar": "التسجيل المسبق"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1611,9 +1616,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl öğretiyoruz?",
-          "en": "How do we teach?",
-          "ar": "كيف ندرّس؟"
+          "tr": "Rakamlarla okulumuz",
+          "en": "Our school in numbers",
+          "ar": "مدرستنا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1629,37 +1634,7 @@
           "etiket": {
             "tr": "Öğrenci",
             "en": "Students",
-            "ar": "طلاب"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 12,
-          "sonek": "",
-          "ikon": "translate",
-          "etiket": {
-            "tr": "Ders",
-            "en": "Lessons",
-            "ar": "دروس"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 85,
-          "sonek": "%",
-          "ikon": "forum",
-          "etiket": {
-            "tr": "Takip",
-            "en": "Tracking",
-            "ar": "متابعة"
+            "ar": "طالب"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1674,7 +1649,37 @@
           "etiket": {
             "tr": "Sınıf",
             "en": "Classes",
-            "ar": "صفوف"
+            "ar": "صف"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 25,
+          "sonek": "",
+          "ikon": "person",
+          "etiket": {
+            "tr": "Öğretmen",
+            "en": "Teachers",
+            "ar": "معلّم"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 90,
+          "sonek": "%",
+          "ikon": "forum",
+          "etiket": {
+            "tr": "Veli memnuniyeti",
+            "en": "Parent satisfaction",
+            "ar": "رضا أولياء الأمور"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1707,44 +1712,57 @@
         "badge": {
           "tr": "Öğrenme",
           "en": "Learning",
-          "ar": "التعلم"
+          "ar": "التعلّم"
         },
         "title": {
           "tr": "Nasıl öğretiyoruz?",
           "en": "How do we teach?",
-          "ar": "كيف ندرّس؟"
+          "ar": "كيف نُدرّس؟"
         },
         "description": {
-          "tr": "Kayıttan sınava; dersten takibe.",
-          "en": "From registration to exam; from lesson to tracking.",
-          "ar": "من التسجيل إلى الامتحان؛ من الدرس إلى المتابعة."
+          "tr": "Dersten laboratuvara; etütten takibe.",
+          "en": "From lessons to the laboratory; from study hall to follow-up.",
+          "ar": "من الدرس إلى المختبر؛ ومن الدراسة المسائية إلى المتابعة."
         }
       },
       "data": [
         {
           "icon": "school",
           "name": {
-            "tr": "Ders salonu",
-            "en": "Classroom",
-            "ar": "قاعة درس"
+            "tr": "Ders programı",
+            "en": "Lesson programme",
+            "ar": "البرنامج الدراسي"
           },
           "description": {
-            "tr": "Ders ve tatbikat akışı.",
-            "en": "Lesson and practice flow.",
-            "ar": "مسار درس وتطبيق."
+            "tr": "Fen, matematik, Türkçe ve yabancı dil dersleri; küçük sınıflar.",
+            "en": "Science, maths, Turkish and foreign language lessons in small classes.",
+            "ar": "دروس العلوم والرياضيات والتركية واللغات الأجنبية في صفوف صغيرة."
           }
         },
         {
-          "icon": "translate",
+          "icon": "science",
           "name": {
-            "tr": "Destek dilleri",
-            "en": "Support languages",
-            "ar": "لغات دعم"
+            "tr": "Fen laboratuvarı",
+            "en": "Science laboratory",
+            "ar": "مختبر العلوم"
           },
           "description": {
-            "tr": "İngilizce/Arapça destek (demo).",
-            "en": "English/Arabic support (demo).",
-            "ar": "دعم الإنجليزية/العربية (تجريبي)."
+            "tr": "Fen konuları deneyle uygulanır.",
+            "en": "Science topics are taught through experiments.",
+            "ar": "تُدرَّس موضوعات العلوم بالتجارب العملية."
+          }
+        },
+        {
+          "icon": "local_library",
+          "name": {
+            "tr": "Kütüphane ve etüt",
+            "en": "Library and study hall",
+            "ar": "المكتبة والدراسة المسائية"
+          },
+          "description": {
+            "tr": "Sessiz çalışma salonu ve ödev etüdü.",
+            "en": "A quiet study room and homework sessions.",
+            "ar": "قاعة دراسة هادئة وحصص لحل الواجبات."
           }
         },
         {
@@ -1756,47 +1774,34 @@
           },
           "description": {
             "tr": "Öğrenci ve veliyle bireysel rehberlik görüşmesi (demo).",
-            "en": "Individual guidance meetings with students and parents (demo).",
-            "ar": "لقاءات إرشاد فردية مع الطلاب وأولياء الأمور (تجريبي)."
+            "en": "One-to-one guidance meetings with students and parents (demo).",
+            "ar": "جلسات إرشاد فردية مع الطالب وولي الأمر (تجريبي)."
           }
         },
         {
-          "icon": "science",
+          "icon": "assignment",
           "name": {
-            "tr": "Laboratuvar dersi",
-            "en": "Laboratory lesson",
-            "ar": "درس المختبر"
+            "tr": "Deneme sınavları",
+            "en": "Mock exams",
+            "ar": "الاختبارات التجريبية"
           },
           "description": {
-            "tr": "Fen konuları deneyle uygulanır.",
-            "en": "Science topics are practised through experiments.",
-            "ar": "تُطبَّق موضوعات العلوم بالتجارب."
-          }
-        },
-        {
-          "icon": "calendar_month",
-          "name": {
-            "tr": "Dönem takvimi",
-            "en": "Period calendar",
-            "ar": "تقويم الفترة"
-          },
-          "description": {
-            "tr": "Ders ve sınav planı.",
-            "en": "Lesson and exam plan.",
-            "ar": "خطة درس واختبار."
+            "tr": "Düzenli deneme ve soru analizi.",
+            "en": "Regular mock exams with question analysis.",
+            "ar": "اختبارات تجريبية منتظمة مع تحليل الأسئلة."
           }
         },
         {
           "icon": "forum",
           "name": {
-            "tr": "Ebeveyn bilgilendirmesi",
-            "en": "Parent information",
-            "ar": "معلومات أولياء الأمور"
+            "tr": "Veli iletişimi",
+            "en": "Parent communication",
+            "ar": "التواصل مع أولياء الأمور"
           },
           "description": {
-            "tr": "Dönem sonu bilgilendirme (demo).",
-            "en": "End-of-period information (demo).",
-            "ar": "معلومات نهاية الفترة (تجريبي)."
+            "tr": "Dönem içinde düzenli bilgilendirme (demo).",
+            "en": "Regular updates throughout the term (demo).",
+            "ar": "إطلاع منتظم على مدار الفصل (تجريبي)."
           }
         }
       ],
@@ -1824,19 +1829,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Kayıttan takibe",
+          "en": "From registration to follow-up",
+          "ar": "من التسجيل إلى المتابعة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda okul",
+          "en": "School in four steps",
+          "ar": "المدرسة في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Ön kayıttan veli raporuna.",
+          "en": "From pre-registration to the parent report.",
+          "ar": "من التسجيل المسبق إلى تقرير ولي الأمر."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1846,27 +1851,27 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kayıt",
-            "en": "Enrollment",
-            "ar": "التسجيل"
+            "tr": "Ön kayıt",
+            "en": "Pre-registration",
+            "ar": "التسجيل المسبق"
           },
           "text": {
-            "tr": "Ders ve dönem seçimi.",
-            "en": "Lesson and period selection.",
-            "ar": "اختيار درس وفترة."
+            "tr": "Görüşme ve belge teslimi.",
+            "en": "An interview and document submission.",
+            "ar": "مقابلة وتسليم المستندات."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Seviye",
-            "en": "Level",
-            "ar": "المستوى"
+            "tr": "Seviye belirleme",
+            "en": "Level assessment",
+            "ar": "تحديد المستوى"
           },
           "text": {
-            "tr": "Seviye tespit sınavı.",
-            "en": "Level assessment exam.",
-            "ar": "امتحان تحديد المستوى."
+            "tr": "Tanıma ve seviye belirleme sınavı.",
+            "en": "An introductory level-assessment exam.",
+            "ar": "اختبار تعارف وتحديد مستوى."
           }
         },
         {
@@ -1877,22 +1882,22 @@
             "ar": "الدروس"
           },
           "text": {
-            "tr": "Haftalık ders akışı.",
-            "en": "Weekly lesson flow.",
-            "ar": "مسار درس أسبوعي."
+            "tr": "Haftalık ders ve etüt programı.",
+            "en": "A weekly lesson and study-hall schedule.",
+            "ar": "جدول أسبوعي للدروس والدراسة المسائية."
           }
         },
         {
           "year": "04",
           "title": {
             "tr": "Takip",
-            "en": "Tracking",
-            "ar": "التتبع"
+            "en": "Follow-up",
+            "ar": "المتابعة"
           },
           "text": {
-            "tr": "Takip ve not raporu.",
-            "en": "Tracking and grade report.",
-            "ar": "متابعة وتقريب الدرجات."
+            "tr": "Deneme sonuçları ve veli bilgilendirme raporu.",
+            "en": "Mock exam results and a report for parents.",
+            "ar": "نتائج الاختبارات التجريبية وتقرير لأولياء الأمور."
           }
         }
       ],
@@ -1921,14 +1926,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Kadromuz",
+          "en": "Our staff",
+          "ar": "كادرنا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizi okulda karşılayanlar",
+          "en": "The people you will meet at school",
+          "ar": "من ستقابلهم في المدرسة"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1942,42 +1947,42 @@
         {
           "name": "Sevgi A.",
           "role": {
-            "tr": "Okul Müdürü",
-            "en": "School principal",
+            "tr": "Okul müdürü",
+            "en": "Head of school",
             "ar": "مديرة المدرسة"
           },
           "bio": {
-            "tr": "12 yıl ders.",
-            "en": "12 years of lessons.",
-            "ar": "١٢ عامًا في الدروس."
+            "tr": "12 yıl okul yönetimi.",
+            "en": "12 years in school management.",
+            "ar": "12 عامًا في إدارة المدارس."
           },
           "img": ""
         },
         {
           "name": "Barış K.",
           "role": {
-            "tr": "Fen Öğretmeni",
+            "tr": "Fen bilimleri öğretmeni",
             "en": "Science teacher",
-            "ar": "معلم العلوم"
+            "ar": "معلّم العلوم"
           },
           "bio": {
-            "tr": "7 yıl laboratuvar.",
-            "en": "7 years of laboratory.",
-            "ar": "٧ سنوات في المختبر."
+            "tr": "7 yıl fen ve laboratuvar eğitimi.",
+            "en": "7 years of science and lab teaching.",
+            "ar": "7 سنوات في تدريس العلوم والمختبر."
           },
           "img": ""
         },
         {
           "name": "Zeynep D.",
           "role": {
-            "tr": "Rehber Öğretmen",
-            "en": "School counsellor",
+            "tr": "Rehber öğretmen",
+            "en": "Guidance counsellor",
             "ar": "مرشدة تربوية"
           },
           "bio": {
-            "tr": "5 yıl takip.",
-            "en": "5 years of tracking.",
-            "ar": "٥ سنوات في المتابعة."
+            "tr": "5 yıl öğrenci ve veli rehberliği.",
+            "en": "5 years of student and parent guidance.",
+            "ar": "5 سنوات في إرشاد الطلاب وأولياء الأمور."
           },
           "img": ""
         }
@@ -2008,14 +2013,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Veli ve öğrenci yorumları",
+          "en": "Parent and student reviews",
+          "ar": "آراء أولياء الأمور والطلاب"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Velilerimiz ne diyor?",
+          "en": "What our parents say",
+          "ar": "ماذا يقول أولياء الأمور؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2029,16 +2034,16 @@
         {
           "name": "A. Korkmaz.",
           "role": {
-            "tr": "Ebeveyn",
+            "tr": "Veli",
             "en": "Parent",
             "ar": "ولي أمر"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Takip net; ders saatleri düzenli.",
-            "en": "Tracking clear; lesson hours regular.",
-            "ar": "المتابعة واضحة؛ ساعات الدرس منتظمة."
+            "tr": "Takip düzenli; ders saatleri net.",
+            "en": "Follow-up is regular and lesson times are clear.",
+            "ar": "المتابعة منتظمة ومواعيد الدروس واضحة."
           }
         },
         {
@@ -2052,23 +2057,23 @@
           "img": "",
           "text": {
             "tr": "Laboratuvar dersleri çok ilgi çekici.",
-            "en": "The laboratory lessons are really engaging.",
-            "ar": "دروس المختبر مشوقة جدًا."
+            "en": "The laboratory lessons are fascinating.",
+            "ar": "دروس المختبر ممتعة جدًا."
           }
         },
         {
           "name": "M. Şen.",
           "role": {
-            "tr": "Ebeveyn",
+            "tr": "Veli",
             "en": "Parent",
-            "ar": "ولي أمر"
+            "ar": "ولية أمر"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Sınav takvimi açık bildirim geldi.",
-            "en": "Exam calendar notification received.",
-            "ar": "جاء إشعار تقويم الامتحان بوضوح."
+            "tr": "Sınav takvimi zamanında bildirildi.",
+            "en": "The exam calendar was announced on time.",
+            "ar": "أُعلن جدول الاختبارات في موعده."
           }
         }
       ],
@@ -2113,17 +2118,17 @@
         "radius": "10px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Okulda neler var?",
+          "en": "What's at school?",
+          "ar": "ماذا في المدرسة؟"
         },
         "title": {
-          "tr": "Nasıl öğretiyoruz?",
-          "en": "How do we teach?",
-          "ar": "كيف ندرّس؟"
+          "tr": "Sınıftan laboratuvara",
+          "en": "From the classroom to the lab",
+          "ar": "من الصف إلى المختبر"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2136,16 +2141,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Ders salonu",
-            "en": "Classroom",
-            "ar": "قاعة درس"
+            "tr": "Ders programı",
+            "en": "Lesson programme",
+            "ar": "البرنامج الدراسي"
           },
           "metin": {
-            "tr": "Ders ve tatbikat akışı.",
-            "en": "Lesson and practice flow.",
-            "ar": "مسار درس وتطبيق."
+            "tr": "Fen, matematik, Türkçe ve yabancı dil dersleri; küçük sınıflar.",
+            "en": "Science, maths, Turkish and foreign language lessons in small classes.",
+            "ar": "دروس العلوم والرياضيات والتركية واللغات الأجنبية في صفوف صغيرة."
           },
-          "img": "egitim-kutuphane.webp",
+          "img": "egitim-hero-okul.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2155,14 +2160,14 @@
         },
         {
           "baslik": {
-            "tr": "Destek dilleri",
-            "en": "Support languages",
-            "ar": "لغات دعم"
+            "tr": "Fen laboratuvarı",
+            "en": "Science laboratory",
+            "ar": "مختبر العلوم"
           },
           "metin": {
-            "tr": "İngilizce/Arapça destek (demo).",
-            "en": "English/Arabic support (demo).",
-            "ar": "دعم الإنجليزية/العربية (تجريبي)."
+            "tr": "Fen konuları deneyle uygulanır.",
+            "en": "Science topics are taught through experiments.",
+            "ar": "تُدرَّس موضوعات العلوم بالتجارب العملية."
           },
           "img": "egitim-laboratuvar.webp",
           "alt": {
@@ -2174,16 +2179,16 @@
         },
         {
           "baslik": {
-            "tr": "Rehberlik servisi",
-            "en": "Guidance service",
-            "ar": "خدمة الإرشاد"
+            "tr": "Kütüphane ve etüt",
+            "en": "Library and study hall",
+            "ar": "المكتبة والدراسة المسائية"
           },
           "metin": {
-            "tr": "Öğrenci ve veliyle bireysel rehberlik görüşmesi (demo).",
-            "en": "Individual guidance meetings with students and parents (demo).",
-            "ar": "لقاءات إرشاد فردية مع الطلاب وأولياء الأمور (تجريبي)."
+            "tr": "Sessiz çalışma salonu ve ödev etüdü.",
+            "en": "A quiet study room and homework sessions.",
+            "ar": "قاعة دراسة هادئة وحصص لحل الواجبات."
           },
-          "img": "egitim-bahce.webp",
+          "img": "egitim-kutuphane.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2239,14 +2244,14 @@
         "radius": "10px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çalıştığımız kurumlar",
+          "en": "Institutions we work with",
+          "ar": "المؤسسات التي نتعاون معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal kurum adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional institution names; they do not belong to a real organisation.",
+          "ar": "أسماء مؤسسات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2256,22 +2261,22 @@
       },
       "data": [
         {
-          "name": "Demo Sınıf"
+          "name": "Demo Kütüphane"
         },
         {
-          "name": "Demo Laboratuvar"
+          "name": "Demo Bilim Merkezi"
         },
         {
-          "name": "Demo Rehberlik"
+          "name": "Demo Üniversite"
         },
         {
-          "name": "Demo Ders"
+          "name": "Demo Spor Kulübü"
         },
         {
-          "name": "Demo Takip"
+          "name": "Demo Dil Okulu"
         },
         {
-          "name": "Demo Ebeveyn"
+          "name": "Demo Belediye"
         }
       ],
       "veri": {
@@ -2301,64 +2306,104 @@
           "ar": "الأسئلة الشائعة"
         },
         "title": {
-          "tr": "Sıkça sorulan sorular",
-          "en": "Frequently asked questions",
-          "ar": "الأسئلة الشائعة"
+          "tr": "Okul hakkında sorular",
+          "en": "Questions about the school",
+          "ar": "أسئلة حول المدرسة"
         },
         "description": {
-          "tr": "Merak edilenler ve kısa yanıtlar.",
-          "en": "Common questions and short answers.",
-          "ar": "أسئلة متكررة وإجابات موجزة."
+          "tr": "Ders saati, seviye sınavı ve ücret üzerine kısa yanıtlar.",
+          "en": "Short answers on school hours, level exams and fees.",
+          "ar": "إجابات موجزة عن مواعيد الدوام واختبار المستوى والرسوم."
         },
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
       },
       "data": [
         {
+          "question": {
+            "tr": "Ders saatleri nasıl?",
+            "en": "What are the school hours?",
+            "ar": "ما مواعيد الدوام؟"
+          },
+          "answer": {
+            "tr": "Ders saatleri 08:30–15:30; etüt ve kulüp saatleri ayrıca duyurulur (kurgusal demo bilgisi).",
+            "en": "Lessons run 08:30–15:30; study-hall and club hours are announced separately (fictional demo information).",
+            "ar": "الدوام من 08:30 إلى 15:30؛ وتُعلن مواعيد الدراسة المسائية والنوادي على حدة (معلومة تجريبية افتراضية)."
+          },
           "soru": {
-            "tr": "Ders saati ne kadar?",
-            "en": "How long is a lesson hour?",
-            "ar": "مدة ساعة الدرس كم?"
+            "tr": "Ders saatleri nasıl?",
+            "en": "What are the school hours?",
+            "ar": "ما مواعيد الدوام؟"
           },
           "cevap": {
-            "tr": "Dönem dersine göre değişir; demo metni değil.",
-            "en": "It varies by period lesson; not a demo text.",
-            "ar": "تتغير حسب درس الفترة؛ غير نص تجريبي."
+            "tr": "Ders saatleri 08:30–15:30; etüt ve kulüp saatleri ayrıca duyurulur (kurgusal demo bilgisi).",
+            "en": "Lessons run 08:30–15:30; study-hall and club hours are announced separately (fictional demo information).",
+            "ar": "الدوام من 08:30 إلى 15:30؛ وتُعلن مواعيد الدراسة المسائية والنوادي على حدة (معلومة تجريبية افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Kayıtta seviye sınavı var mı?",
+            "en": "Is there a level exam at registration?",
+            "ar": "هل يوجد اختبار مستوى عند التسجيل؟"
+          },
+          "answer": {
+            "tr": "Evet; ön kayıt görüşmesinde seviye belirleme sınavı yapılır, sonuç veliyle paylaşılır.",
+            "en": "Yes; a level-assessment exam is held at the pre-registration interview and the result is shared with the parent.",
+            "ar": "نعم؛ يُجرى اختبار تحديد المستوى في مقابلة التسجيل المسبق وتُشارَك النتيجة مع ولي الأمر."
+          },
           "soru": {
-            "tr": "Seviye sınavı var mı?",
-            "en": "Is there a level exam?",
-            "ar": "هل يوجد اختبار مستوى?"
+            "tr": "Kayıtta seviye sınavı var mı?",
+            "en": "Is there a level exam at registration?",
+            "ar": "هل يوجد اختبار مستوى عند التسجيل؟"
           },
           "cevap": {
-            "tr": "Kayıtta seviye tespit sınavı yapılır.",
-            "en": "A level assessment exam is done at registration.",
-            "ar": "يُجرى اختبار تحديد مستوى عند التسجيل."
+            "tr": "Evet; ön kayıt görüşmesinde seviye belirleme sınavı yapılır, sonuç veliyle paylaşılır.",
+            "en": "Yes; a level-assessment exam is held at the pre-registration interview and the result is shared with the parent.",
+            "ar": "نعم؛ يُجرى اختبار تحديد المستوى في مقابلة التسجيل المسبق وتُشارَك النتيجة مع ولي الأمر."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Ücretler nasıl belirlenir?",
+            "en": "How are fees determined?",
+            "ar": "كيف تُحدَّد الرسوم؟"
+          },
+          "answer": {
+            "tr": "Sınıf düzeyi ve programa göre belirlenir; güncel ücret için bizimle iletişime geçin. Bu demoda ücret listesi yoktur.",
+            "en": "Fees depend on grade level and programme; contact us for current fees. This demo has no fee list.",
+            "ar": "تعتمد الرسوم على المستوى الدراسي والبرنامج؛ تواصل معنا لمعرفة الرسوم الحالية. لا توجد قائمة رسوم في هذا العرض التجريبي."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Ücretler nasıl belirlenir?",
+            "en": "How are fees determined?",
+            "ar": "كيف تُحدَّد الرسوم؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Sınıf düzeyi ve programa göre belirlenir; güncel ücret için bizimle iletişime geçin. Bu demoda ücret listesi yoktur.",
+            "en": "Fees depend on grade level and programme; contact us for current fees. This demo has no fee list.",
+            "ar": "تعتمد الرسوم على المستوى الدراسي والبرنامج؛ تواصل معنا لمعرفة الرسوم الحالية. لا توجد قائمة رسوم في هذا العرض التجريبي."
           }
         }
       ],
@@ -2416,9 +2461,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "10px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Ön kayıt isteyin",
+          "en": "Request pre-registration",
+          "ar": "اطلب التسجيل المسبق"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2431,7 +2476,7 @@
           "ar": "Fen Koleji"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2487,9 +2532,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Ön kayıt formu",
+          "en": "Pre-registration form",
+          "ar": "نموذج التسجيل المسبق"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2520,25 +2565,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Ön kayıt",
+              "en": "Pre-registration",
+              "ar": "تسجيل مسبق"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Okul gezisi",
+              "en": "School visit",
+              "ar": "زيارة المدرسة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Burs ve ücret bilgisi",
+              "en": "Scholarship and fee information",
+              "ar": "معلومات المنح والرسوم"
             }
           },
           {
@@ -2625,7 +2670,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2649,32 +2695,32 @@
           "ar": "Fen Koleji"
         },
         "description": {
-          "tr": "Fen Koleji, ders ve deneme sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Fen gives classes and exams. Images are representative and text is fictional.",
-          "ar": "يعطي فن دروس وامتحانات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Fen Koleji; ortaokul ve lise düzeyinde ders programı, laboratuvar, rehberlik ve deneme sınavı sunan bir özel okuldur. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Fen Koleji is a private school offering a lesson programme, laboratory, guidance and mock exams for middle and high school. Images are representative and text is fictional.",
+          "ar": "Fen Koleji مدرسة خاصة تقدّم برنامجًا دراسيًا ومختبرًا وإرشادًا واختبارات تجريبية للمرحلتين المتوسطة والثانوية. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Teneffüs köşesi",
-          "en": "Recess corner",
-          "ar": "ركن الاستراحة"
+          "tr": "Yemekhane",
+          "en": "Canteen",
+          "ar": "المطعم المدرسي"
         },
         "spot2": {
-          "tr": "Ders arası nefes ve kayıt köşesi.",
-          "en": "A breathing and record corner between lessons.",
-          "ar": "ركن تفسح وتسجيل بين الدروس."
+          "tr": "Öğle yemeği ve ara öğün; menü haftalık duyurulur.",
+          "en": "Lunch and snacks; the menu is announced weekly.",
+          "ar": "وجبة غداء ووجبات خفيفة؛ وتُعلن القائمة أسبوعيًا."
         },
-        "icon2": "verified",
+        "icon2": "restaurant",
         "name3": {
-          "tr": "Defter",
-          "en": "Notebook",
-          "ar": "دفتر"
+          "tr": "Okul bahçesi",
+          "en": "School garden",
+          "ar": "حديقة المدرسة"
         },
         "spot3": {
-          "tr": "Her öğrenci için takip defteri.",
-          "en": "A tracking notebook for each student.",
-          "ar": "دفتر متابعة لكل طالب."
+          "tr": "Teneffüste açık hava ve spor alanı.",
+          "en": "Open-air and sports space at break time.",
+          "ar": "مساحة مفتوحة وملعب في أوقات الاستراحة."
         },
-        "icon3": "schedule",
+        "icon3": "park",
         "img": "egitim-yemekhane.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2763,9 +2809,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cum 08:00 – 20:00",
+          "en": "Mon–Fri 08:00 – 20:00",
+          "ar": "الاثنين–الجمعة 08:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2793,9 +2839,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Kayıt ve veli soruları için",
+          "en": "For registration and parent questions",
+          "ar": "لأسئلة التسجيل وأولياء الأمور"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2857,25 +2903,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "10px",
         "title": {
-          "tr": "Sınav öncesi",
-          "en": "Before the exam",
-          "ar": "قبل الامتحان"
+          "tr": "Okulu yakından görün",
+          "en": "See the school up close",
+          "ar": "تعرّف على المدرسة عن قرب"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Ön kayıt formunu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the pre-registration form; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ نموذج التسجيل المسبق وسنردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Ön kayıt formu",
+          "en": "Pre-registration form",
+          "ar": "نموذج التسجيل المسبق"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Programları gör",
+          "en": "See programmes",
+          "ar": "شاهد البرامج"
         },
         "btn2Url": "hizmetler",
         "number": "903420200107",

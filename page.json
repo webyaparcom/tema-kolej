@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Kayıttan sınava; dersten takibe.",
-        "en": "From registration to exam; from lesson to tracking.",
-        "ar": "من التسجيل إلى الامتحان؛ من الدرس إلى المتابعة."
+        "tr": "Dersten laboratuvara; etütten takibe.",
+        "en": "From lessons to the laboratory; from study hall to follow-up.",
+        "ar": "من الدرس إلى المختبر؛ ومن الدراسة المسائية إلى المتابعة."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Ders ve deneme; görseller temsilîdir.",
-        "en": "Classes and exams; images are representative.",
-        "ar": "دروس وامتحانات؛ الصور تمثيلية."
+        "tr": "Ders ve laboratuvar; görseller temsilîdir.",
+        "en": "Lessons and laboratory; images are representative.",
+        "ar": "دروس ومختبر؛ الصور تمثيلية."
       }
     },
     {

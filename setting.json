@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Ders ve deneme; görseller temsilîdir.",
-    "en": "Classes and exams; images are representative.",
-    "ar": "دروس وامتحانات؛ الصور تمثيلية."
+    "tr": "Ortaokul ve lise düzeyinde ders, laboratuvar ve rehberlik; görseller temsilîdir.",
+    "en": "Middle and high school lessons, laboratory and guidance; images are representative.",
+    "ar": "دروس للمرحلتين المتوسطة والثانوية ومختبر وإرشاد؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "kolej, ders, sınav",
-    "en": "college, class, exam",
-    "ar": "كلية، درس، امتحان"
+    "tr": "kolej, özel okul, fen laboratuvarı, rehberlik, deneme sınavı",
+    "en": "private school, science laboratory, guidance, mock exams",
+    "ar": "مدرسة خاصة، مختبر علوم، إرشاد، اختبارات تجريبية"
   },
   "category": "Kurumsal",
   "name": "Fen Koleji",

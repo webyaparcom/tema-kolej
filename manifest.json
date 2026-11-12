@@ -1,7 +1,7 @@
 {
   "name": "Fen Koleji",
   "short_name": "Fen Koleji",
-  "description": "Ders ve deneme; görseller temsilîdir.",
+  "description": "Ortaokul ve lise düzeyinde ders, laboratuvar ve rehberlik; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
